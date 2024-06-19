@@ -1,7 +1,6 @@
-import Image from "next/image";
 import HeroSection from "@/components/HeroSection";
 import Courses from "@/components/Courses";
-import WhyChooseUs from "@/components/whyChooseUs";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (

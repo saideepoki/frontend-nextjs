@@ -50,7 +50,7 @@ const musicSchoolContent: Content[] = [
 
 export default function WhyChooseUs() {
     return (
-        <div className = "mt-5 p-10">
+        <div className = "">
             <StickyScroll content={musicSchoolContent}/>
         </div>
     )
