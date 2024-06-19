@@ -50,7 +50,7 @@ const musicSchoolContent: Content[] = [
 
 export default function WhyChooseUs() {
     return (
-        <div className = "">
+        <div className = "overflow-hidden">
             <StickyScroll content={musicSchoolContent}/>
         </div>
     )

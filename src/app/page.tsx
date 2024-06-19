@@ -1,6 +1,8 @@
 import HeroSection from "@/components/HeroSection";
 import Courses from "@/components/Courses";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Testimonials from "@/components/Testimonials";
+import Webinars from "@/components/Webinars";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
      <HeroSection/>
      <Courses/>
      <WhyChooseUs/>
+     <Testimonials/>
+     <Webinars/>
     </main>
   );
 }
