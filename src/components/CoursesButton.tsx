@@ -14,7 +14,7 @@
 
 import Link from "next/link";
 
-export default function CoursesButton ({content}) {
+export default function CoursesButton ({content}: {content: string}) {
     return (
         <button className="px-4 py-2 rounded-xl border border-neutral-600 text-black bg-white hover:bg-gray-100 transition duration-200">
             {content}

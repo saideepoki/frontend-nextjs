@@ -3,6 +3,7 @@ import Courses from "@/components/Courses";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Testimonials from "@/components/Testimonials";
 import Webinars from "@/components/Webinars";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
      <WhyChooseUs/>
      <Testimonials/>
      <Webinars/>
+     <Instructors/>
     </main>
   );
 }

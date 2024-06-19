@@ -21,9 +21,8 @@ import CourseCard from "./CourseCard";
 
 export default function Courses() {
   const featuredCourses = courseData.courses.filter((course: Course) => course.isFeatured);
-
     return (
-        <div className = "flex text-center flex-col bg-gray-900">
+        <div className = "flex text-center justify-center items-center flex-col bg-gray-900">
         <div className = "py-10">
            <div>
             <h2 className = "text-teal-600 uppercase text-base font-semibold tracking-wide mb-3 mt-5 text-l">FEATURED COURSES</h2>
